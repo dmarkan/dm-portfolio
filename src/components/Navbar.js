@@ -11,7 +11,7 @@ const Navbar = () => {
           <div class="collapse navbar-collapse nav" id="navbarNav">
             <ul class="navbar-nav ms-auto">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="/">About</a>
+                <a class="nav-link active" aria-current="page" href="#">About</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Works</a>

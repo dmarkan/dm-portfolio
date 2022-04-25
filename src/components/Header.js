@@ -1,6 +1,6 @@
 import React from "react";
 
-const Main = () => {
+const Header = () => {
     return (
         <div class="container-fluid mt-1">
         <img class="img-fluid rounded mx-auto d-block" src="images/header-img.jpg" alt="header-img" />
@@ -10,4 +10,4 @@ const Main = () => {
     )
 }
 
-export default Main;
+export default Header;

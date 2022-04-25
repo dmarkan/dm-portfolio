@@ -1,12 +1,14 @@
 import React from "react";
 import Navbar from "./components/Navbar";
-import Main from "./components/Main";
+import Header from "./components/Header";
+import Bio from "./components/Bio";
 
 function App() {
   return (
     <div className="App">
     <Navbar />
-    <Main />
+    <Header />
+    <Bio />
     </div>
   );
 }

@@ -4,6 +4,31 @@
     padding: 0;
 }
 
-.pro-span {
+.pro-span, .header-txt-underline {
     text-decoration: underline;
+    color: #55D8C1;
 }
+
+img {
+    border: solid 2px rgba(255,255,255,.1); 
+}
+
+.bio-img {
+    height: 10vh;
+    border-radius: 50%;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.year-bold {
+    font-weight:500;
+}
+
+@media (orientation: landscape) {
+    .bio-img {
+        height: 30vh;
+    }
+  }

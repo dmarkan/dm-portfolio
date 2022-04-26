@@ -14,7 +14,7 @@ img {
 }
 
 .bio-img {
-    height: 10vh;
+    height: 12vh;
     border-radius: 50%;
 }
 
@@ -27,8 +27,13 @@ ul {
     font-weight:500;
 }
 
+.read-more-button {
+    color: #55D8C1;
+    cursor: pointer;
+}
+
 @media (orientation: landscape) {
     .bio-img {
-        height: 30vh;
+        height: 24vh;
     }
   }

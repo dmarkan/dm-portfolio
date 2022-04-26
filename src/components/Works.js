@@ -3,7 +3,7 @@ import Apps from "./Apps";
 
 const Works = () => {
     return (
-        <div class="container-fluid">
+        <div class="container-fluid" id="works">
         <h5 class="header-txt-underline">Works</h5>
         <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
       <div class="col">

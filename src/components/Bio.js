@@ -4,7 +4,7 @@ import Education from "./Education";
 
 const Bio = () => {
     return (
-        <div class="container-fluid">
+        <div class="container-fluid" id="about">
         <h5 class="header-txt-underline">About</h5>
         <div class="bio-header d-flex justify-content-between">
         <Readmore />

@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Titillium Web', sans-serif;
 }
@@ -41,7 +45,7 @@ ul {
     border-color: #55D8C1;
 }
 
-.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary, .btn-primary:visited, .btn-check:checked {
     color: #fff;
     background-color: #42a795;
     border-color: #55D8C1;
@@ -57,8 +61,24 @@ a {
     color: #fff;
 }
 
-a:hover {
+a:hover, .arrow:hover {
     color: #55D8C1;
+}
+
+.form-control:focus {
+    border-color: #55D8C1;
+    box-shadow: 0 0 0 0.2rem #42a795;;
+} 
+
+.arrow-float {
+    float: right;
+    margin-right: 3vh;
+}
+
+.arrow {
+    cursor: pointer;
+    position: fixed;
+    bottom: 0;
 }
 
 @media (orientation: landscape) {

@@ -4,12 +4,16 @@
     padding: 0;
 }
 
+body {
+    font-family: 'Titillium Web', sans-serif;
+}
+
 .pro-span, .header-txt-underline {
     text-decoration: underline;
     color: #55D8C1;
 }
 
-img {
+img, .card {
     border: solid 2px rgba(255,255,255,.1); 
 }
 
@@ -30,6 +34,31 @@ ul {
 .read-more-button {
     color: #55D8C1;
     cursor: pointer;
+}
+
+.btn-primary {
+    background-color: #55D8C1;
+    border-color: #55D8C1;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: #42a795;
+    border-color: #55D8C1;
+}
+
+.card-img {
+    height: 100%;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    color: #55D8C1;
 }
 
 @media (orientation: landscape) {

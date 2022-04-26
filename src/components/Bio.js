@@ -11,7 +11,7 @@ const Bio = () => {
         <img src="images/bio-img.png" alt="bio-img" class="bio-img img-fluid" />
         </div>
         <div>
-        <h5 class="header-txt-underline mt-1">Education</h5>
+        <h5 class="header-txt-underline">Education</h5>
         <Education />
         </div>
         </div>
